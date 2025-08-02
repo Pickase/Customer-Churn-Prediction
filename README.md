@@ -6,30 +6,6 @@ Customer churn, or customer attrition, refers to when a customer ceases their re
 ## Problem Statement
 The goal of this project is to develop a classification model that predicts whether a customer will churn. Using demographic data (such as gender, senior citizen status, and tenure), along with information about the services they use (such as internet service, phone service, and online security), this project attempts to build a model that helps the company identify customers who are at a high risk of churning. By predicting customer churn, the company can proactively design retention strategies to keep these customers, thereby improving customer satisfaction and reducing financial loss.
 
-## Dataset Information
-The dataset used for this project is `Customer_data.xlsx`. The data dictionary provides details for each variable:
-
-* **customerID**: Unique ID for the customer
-* **gender**: Gender of the customer
-* **SeniorCitizen**: Whether the customer is a senior citizen (0: No, 1: Yes)
-* **Partner**: Whether the customer has a partner (Yes/No)
-* **Dependents**: Whether the customer has dependents (Yes/No)
-* **tenure**: Number of months the customer has stayed with the company
-* **PhoneService**: Whether the customer has phone service (Yes/No)
-* **MultipleLines**: Whether the customer has multiple lines (Yes/No)
-* **InternetService**: Customer’s internet service provider (DSL, Fiber optic, No)
-* **OnlineSecurity**: Whether the customer has online security add-on (Yes/No)
-* **OnlineBackup**: Whether the customer has online backup add-on (Yes/No)
-* **DeviceProtection**: Whether the customer has device protection add-on (Yes/No)
-* **TechSupport**: Whether the customer has tech support add-on (Yes/No)
-* **StreamingTV**: Whether the customer has streaming TV add-on (Yes/No)
-* **StreamingMovies**: Whether the customer has streaming movies add-on (Yes/No)
-* **Contract**: Type of contract the customer has (Month-to-month, One year, Two year)
-* **PaperlessBilling**: Whether the customer uses paperless billing (Yes/No)
-* **PaymentMethod**: Customer’s payment method (Electronic check, Mailed check, etc.)
-* **MonthlyCharges**: The amount charged to the customer monthly
-* **TotalCharges**: The total amount charged to the customer
-* **Churn**: Whether the customer churned (Yes/No)
 
 ## Methodology and Deliverables
 
@@ -68,4 +44,5 @@ The project uses the following tools and libraries:
 4.  Run all cells in the notebook sequentially to execute the data exploration, cleaning, model building, evaluation, and prediction steps.
 
 ## Video Link
+
 A video explaining the analysis for this project can be found in the "Video Link" section within the `ML-Project-2-PranavJoshi-Draft.ipynb` notebook.
